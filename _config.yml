@@ -1,0 +1,9 @@
+theme: jekyll-theme-cayman
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /media/conclusion_large.jpeg
+        height: 630
+        width: 1200
