@@ -1,0 +1,120 @@
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus{
+    /*background-image: -webkit-linear-gradient(45deg, #ff5f6d 0%, #ffc371 100%)!important;*/
+    background-image: -webkit-linear-gradient(45deg, #06332A  0%, #00634F 75%)!important;
+
+
+}
+
+h1.title {
+    font-size: 58px;
+    background: -webkit-linear-gradient(45deg, #06332A  0%, #00634F 75%)!important;
+    //background: -webkit-linear-gradient(180deg, #667eea  0%, #764ba2 75%)!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+
+
+.subtitle {
+    font-size: 42px;
+    background: -webkit-linear-gradient(45deg, #06332A  0%, #00634F 75%)!important;
+    //background: -webkit-linear-gradient(180deg, #667eea  0%, #764ba2 75%)!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+
+h2 {
+    background: -webkit-linear-gradient(45deg, #06332A  0%, #00634F 75%)!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+
+/* Collapsable class */
+
+.collapsible {
+
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  width: auto;
+  border: none;
+  text-align: center;
+  align: center;
+  outline: none;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 3px 20px;
+  margin: 4px 2px;
+  border-radius: 32px;
+  background-image: -webkit-linear-gradient(45deg, #06332A  0%, #00634F 75%);
+}
+
+
+.active, .collapsible:hover {
+  background-color: #555;
+  background-image: -webkit-linear-gradient(45deg, #00634F 0%, #568E30 90%);
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+button.btn.btn-default.btn-xs.code-folding-btn.pull-right{
+  float: left !important;
+  background-color: #777 !important;
+  color: white !important;
+  cursor: pointer !important;
+  width: auto !important;
+  border: none!important;
+  text-align: center !important;
+  align: center !important;
+  outline: none !important;
+  font-size: 15px !important;
+  display: flex !important;
+  justify-content: center !important;
+  padding: 3px 20px !important;
+  margin: 4px 2px !important;
+  border-radius: 32px !important;
+  background-image: -webkit-linear-gradient(45deg, #06332A  0%, #00634F 75%) !important;
+}
+
+.active, button.btn.btn-default.btn-xs.code-folding-btn.pull-right:hover{
+    background-color: #555 !important;
+  background-image: -webkit-linear-gradient(45deg, #00634F 0%, #568E30 90%) !important;
+}
+
+
+@font-face {
+ font-family: 'Gothamy';
+ src: local('Gotham Book'), local('Gotham-Book');
+ font-weight: normal;
+ font-style: normal;
+ font-variant: normal;
+}
+@font-face {
+ font-family: 'Gothamy';
+ src: local('Gotham Bold'), local('Gotham-Bold');
+ font-weight: bold;
+ font-style: normal;
+ font-variant: normal;
+}
+@font-face {
+ font-family: 'Gothamy';
+ src: local('Gotham Book Italic'), local('Gotham-BookItalic');
+ font-weight: normal;
+ font-style: italic;
+ font-variant: normal;
+}
+@font-face {
+ font-family: 'Gothamy';
+ src: local('Gotham Bold Italic'), local('Gotham-BoldItalic');
+ font-weight: bold;
+ font-style: italic;
+ font-variant: normal;
+}
+body {
+ font-family: Gothamy, Gotham-Book, Arial, sans-serif;
+}
